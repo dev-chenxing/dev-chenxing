@@ -9,5 +9,5 @@
 </a>
 
 <a href="https://github.com/amaliegay?tab=repositories">
-  <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=great-gatsby&layout=compact&langs_count=5" />
+  <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=great-gatsby&layout=compact&langs_count=6&hide=makefile" />
 </a>
