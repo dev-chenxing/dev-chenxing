@@ -1,4 +1,5 @@
-<h1 align="center">Hi, I'm chen.xing, aka 陈刑! 👋</h1>
+<h1 align="center">Hi, I'm 陈刑 👋</h1>
+<h2 align="center">aka 𝖈𝖍𝖊𝖓.𝖝𝖎𝖓𝖌</h2>
 
 <div>
   <div align="center">
