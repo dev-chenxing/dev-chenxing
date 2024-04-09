@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta property="og:title" content="Clock" />
-	<meta property="og:description" content="A minimalistic page with a clock" />
-	<meta property="og:url" content="https://amaliegay.github.io/amaliegay" />
-	<meta property="og:type" content="website" />
+		<meta property="og:title" content="Clock" />
+		<meta property="og:description" content="A minimalistic page with a clock" />
+		<meta property="og:url" content="https://amaliegay.github.io/amaliegay" />
+		<meta property="og:type" content="website" />
 
-	<title>Clock</title>
-	<style>
+		<title>Clock</title>
+		<style>
 		* {
 			margin: 0 auto;
 			padding: 0;
 			box-sizing: border-box;
 			user-select: none;
-			-webkit-tap-highlight-color: transparent;
-			-webkit-touch-callout: unset;
-			-webkit-user-select: none;
 			-moz-user-select: none;
 			-ms-user-select: none;
 			-o-user-select: none;
@@ -205,47 +202,47 @@
 			}
 		}
 	</style>
-</head>
+	</head>
 
-<body>
-	<div class="container">
-		<div class="wallpaper"></div>
-		<div class="center">
-			<div class="top">
-				<a href="https://github.com/amaliegay">CHEN.XING</a>
-			</div>
-			<div id="year-container" class="clock-container">
-				<div class="year-c">
-					<p class="big-text vertical-text" id="year">2024</p>
+	<body>
+		<div class="container">
+			<div class="wallpaper"></div>
+			<div class="center">
+				<div class="top">
+					<a href="https://github.com/amaliegay">CHEN.XING</a>
+				</div>
+				<div id="year-container" class="clock-container">
+					<div class="year-c">
+						<p class="big-text vertical-text" id="year">2024</p>
+					</div>
+				</div>
+				<div class="center-bottom">
+					<a href="https://github.com/amaliegay">CHEN.XING</a>
+					<a href="https://github.com/amaliegay">CHEN.XING</a>
+					<a href="https://github.com/amaliegay">CHEN.XING</a>
 				</div>
 			</div>
-			<div class="center-bottom">
-				<a href="https://github.com/amaliegay">CHEN.XING</a>
-				<a href="https://github.com/amaliegay">CHEN.XING</a>
-				<a href="https://github.com/amaliegay">CHEN.XING</a>
+			<div class="bottom">
+				<div id="clock-container" class="clock-container">
+					<div class="month-c">
+						<p class="big-text" id="month">01.</p>
+					</div>
+					<div class="date-c">
+						<p class="big-text" id="date">01-</p>
+					</div>
+					<div class="hours-c">
+						<p class="big-text" id="hours">00:</p>
+					</div>
+					<div class="mins-c">
+						<p class="big-text" id="mins">00:</p>
+					</div>
+					<div class="seconds-c">
+						<p class="big-text" id="seconds">00</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="bottom">
-			<div id="clock-container" class="clock-container">
-				<div class="month-c">
-					<p class="big-text" id="month">01.</p>
-				</div>
-				<div class="date-c">
-					<p class="big-text" id="date">01-</p>
-				</div>
-				<div class="hours-c">
-					<p class="big-text" id="hours">00:</p>
-				</div>
-				<div class="mins-c">
-					<p class="big-text" id="mins">00:</p>
-				</div>
-				<div class="seconds-c">
-					<p class="big-text" id="seconds">00</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script>
+		<script>
 		document.addEventListener("DOMContentLoaded", () => {
 			const yearElement = document.getElementById("year");
 			const monthElement = document.getElementById("month");
@@ -279,6 +276,6 @@
 			setInterval(updateClock, 1000);
 		});
 	</script>
-</body>
+	</body>
 
 </html>
