@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:title" content="Clock" />
+	<meta property="og:description" content="A minimalistic page with a clock" />
+	<meta property="og:url" content="https://amaliegay.github.io/amaliegay" />
+	<meta property="og:type" content="website" />
+
+	<title>Clock</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			user-select: none;
+			-webkit-tap-highlight-color: transparent;
+			-webkit-touch-callout: unset;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			font-family: 'Baskerville', serif;
+		}
+
+		a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		body {
+			background-color: #ffffff;
+			font-family: 'Baskerville', serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+
+
+			text-rendering: optimizeLegibility;
+		}
+
+		.wallpaper {
+			background-color: #ffffff;
+		}
+
+		.clock-container {
+			display: flex;
+		}
+
+		.big-text {
+			font-size: 6em;
+			font-weight: bold;
+			color: #0B0097;
+			text-shadow: 0 0 1px #0B0097;
+		}
+
+		footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 3.0rem;
+			background-color: #0B0097;
+			padding-top: 0.5rem;
+		}
+
+		.footer {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="wallpaper"></div>
+		<div id="clock-container" class="clock-container">
+			<div class="month-c">
+				<p class="big-text" id="month">01.</p>
+			</div>
+			<div class="date-c">
+				<p class="big-text" id="date">01-</p>
+			</div>
+			<div class="hours-c">
+				<p class="big-text" id="hours">00:</p>
+			</div>
+			<div class="mins-c">
+				<p class="big-text" id="mins">00:</p>
+			</div>
+			<div class="seconds-c">
+				<p class="big-text" id="seconds">00</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="white">
+				<path
+					d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+			</svg>
+			<a href="https://github.com/amaliegay">chen.xing</a>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+			const monthElement = document.getElementById("month");
+			const dateElement = document.getElementById("date");
+			const hoursElement = document.getElementById("hours");
+			const minsElement = document.getElementById("mins");
+			const secondsElement = document.getElementById("seconds");
+
+			const updateClock = () => {
+
+				const now = new Date();
+
+				const formatTime = (time) => (time < 10 ? `0${time}` : time);
+
+				const month = now.getMonth() + 1;
+				const date = now.getDate();
+				const hours = now.getHours();
+				const minutes = now.getMinutes();
+				const seconds = now.getSeconds();
+
+				monthElement.innerHTML = formatTime(month) + ".";
+				dateElement.innerHTML = formatTime(date) + "-";
+				hoursElement.innerHTML = formatTime(hours) + ":";
+				minsElement.innerHTML = formatTime(minutes) + ":";
+				secondsElement.innerHTML = formatTime(seconds);
+			};
+
+			updateClock();
+			setInterval(updateClock, 1000);
+		});
+	</script>
+</body>
+
+</html>
