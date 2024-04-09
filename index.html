@@ -12,7 +12,7 @@
 	<title>Clock</title>
 	<style>
 		* {
-			margin: 0;
+			margin: 0 auto;
 			padding: 0;
 			box-sizing: border-box;
 			user-select: none;
@@ -39,8 +39,6 @@
 			background-color: #ffffff;
 			font-family: 'Baskerville', serif;
 			display: flex;
-			align-items: center;
-			justify-content: center;
 			height: 100vh;
 			overflow: hidden;
 			-webkit-font-smoothing: antialiased;
@@ -48,8 +46,22 @@
 			text-rendering: optimizeLegibility;
 		}
 
+		.container {
+			width: 100%;
+			bottom: 2.4rem;
+			position: relative;
+		}
+
 		.wallpaper {
 			background-color: #ffffff;
+		}
+
+		.bottom {
+			display: flex;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
 		}
 
 		.clock-container {
@@ -57,7 +69,7 @@
 		}
 
 		.big-text {
-			font-size: 6em;
+			font-size: 8em;
 			font-weight: bold;
 			color: #0B0097;
 			text-shadow: 0 0 1px #0B0097;
@@ -81,21 +93,23 @@
 <body>
 	<div class="container">
 		<div class="wallpaper"></div>
-		<div id="clock-container" class="clock-container">
-			<div class="month-c">
-				<p class="big-text" id="month">01.</p>
-			</div>
-			<div class="date-c">
-				<p class="big-text" id="date">01-</p>
-			</div>
-			<div class="hours-c">
-				<p class="big-text" id="hours">00:</p>
-			</div>
-			<div class="mins-c">
-				<p class="big-text" id="mins">00:</p>
-			</div>
-			<div class="seconds-c">
-				<p class="big-text" id="seconds">00</p>
+		<div class="bottom">
+			<div id="clock-container" class="clock-container">
+				<div class="month-c">
+					<p class="big-text" id="month">01.</p>
+				</div>
+				<div class="date-c">
+					<p class="big-text" id="date">01-</p>
+				</div>
+				<div class="hours-c">
+					<p class="big-text" id="hours">00:</p>
+				</div>
+				<div class="mins-c">
+					<p class="big-text" id="mins">00:</p>
+				</div>
+				<div class="seconds-c">
+					<p class="big-text" id="seconds">00</p>
+				</div>
 			</div>
 		</div>
 	</div>
