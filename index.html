@@ -74,6 +74,8 @@
 
 		.clock-container {
 			display: flex;
+			flex-wrap: wrap;
+			position: relative;
 		}
 
 		.big-text {
@@ -81,6 +83,88 @@
 			font-weight: bold;
 			color: #0B0097;
 			text-shadow: 0 0 1px #0B0097;
+		}
+
+		@media screen and (max-width: 500px)
+
+		/* Mobile */
+			{
+			.big-text {
+				font-size: 6.3em;
+			}
+
+			.bottom {
+				height: 220px;
+			}
+
+			.clock-container {
+				margin: 0
+			}
+
+			.month-c {
+				position: absolute;
+				left: 0.5em;
+				bottom: 4.5em;
+			}
+
+			.date-c {
+				position: absolute;
+				left: 9em;
+				bottom: 4.5em;
+			}
+
+			.hours-c {
+				position: absolute;
+				left: 0.5em;
+				bottom: -1em;
+			}
+
+			.mins-c {
+				position: absolute;
+				left: 9em;
+				bottom: -1em;
+			}
+
+			.seconds-c {
+				position: absolute;
+				left: 17.5em;
+				bottom: -1em;
+			}
+		}
+
+		@media screen and (max-width: 375px) {
+			.big-text {
+				font-size: 5em;
+			}
+			.month-c {
+				position: absolute;
+				left: 1em;
+				bottom: 3.5em;
+			}
+
+			.date-c {
+				position: absolute;
+				left: 8em;
+				bottom: 3.5em;
+			}
+
+			.hours-c {
+				position: absolute;
+				left: 1em;
+				bottom: -0.5em;
+			}
+
+			.mins-c {
+				position: absolute;
+				left: 8em;
+				bottom: -0.5em;
+			}
+
+			.seconds-c {
+				position: absolute;
+				left: 15em;
+				bottom: -0.5em;
+			}
 		}
 
 		.center {
