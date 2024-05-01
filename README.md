@@ -25,6 +25,6 @@
   </a>
   
   <a href="https://github.com/amaliegay?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=shadow_red&layout=compact&langs_count=8&hide=makefile" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=shadow_red&layout=compact&langs_count=8&hide=makefile,batchfile" />
   </a>
 </div>
