@@ -17,7 +17,7 @@
 #### :wrench: Languages and Tools
 
 ![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,ruby,lua&theme=light)
-![](https://skillicons.dev/icons?i=githubactions,linux,ubuntu&theme=light)
+![](https://skillicons.dev/icons?i=githubactions,linux,ubuntu,vscode,sublime&theme=light)
 
 <div>
   <a href="https://github.com/amaliegay">
