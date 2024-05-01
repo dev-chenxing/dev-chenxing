@@ -16,8 +16,8 @@
 
 #### :wrench: Languages and Tools
 
-![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,lua&theme=light)
-![](https://skillicons.dev/icons?i=githubactions,linux&theme=light)
+![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,ruby,lua&theme=light)
+![](https://skillicons.dev/icons?i=githubactions,linux,ubuntu&theme=light)
 
 <div>
   <a href="https://github.com/amaliegay">
@@ -25,6 +25,6 @@
   </a>
   
   <a href="https://github.com/amaliegay?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=shadow_red&layout=compact&langs_count=6&hide=makefile" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=shadow_red&layout=compact&langs_count=8&hide=makefile" />
   </a>
 </div>
