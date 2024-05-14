@@ -16,7 +16,7 @@
 
 #### :wrench: Languages and Tools
 
-![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,ruby,lua&theme=light)
+![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,ruby,bash,lua&theme=light)
 
 ![](https://skillicons.dev/icons?i=git,githubactions,linux,ubuntu,vscode,sublime&theme=light)
 
