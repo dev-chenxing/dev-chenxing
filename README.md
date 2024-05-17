@@ -21,11 +21,11 @@
 ![](https://skillicons.dev/icons?i=git,githubactions,linux,ubuntu,vscode,sublime&theme=light)
 
 <div>
-  <a href="https://github.com/amaliegay">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api?username=amaliegay&show_icons=true&line_height=24&theme=shadow_red" />
+  <a href="https://github.com/dev-chenxing">
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api?username=dev-chenxing&show_icons=true&line_height=24&theme=shadow_red" />
   </a>
   
-  <a href="https://github.com/amaliegay?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaliegay&theme=shadow_red&layout=compact&langs_count=8&hide=makefile,batchfile" />
+  <a href="https://github.com/dev-chenxing?tab=repositories">
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chenxing&theme=shadow_red&layout=compact&langs_count=8&hide=makefile,batchfile" />
   </a>
 </div>
