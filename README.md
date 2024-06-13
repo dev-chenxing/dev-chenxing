@@ -18,7 +18,9 @@
 
 ![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,bash,ruby,ts,lua&theme=light)
 
-![](https://skillicons.dev/icons?i=git,githubactions,linux,ubuntu,vscode,sublime&theme=light)
+![](https://skillicons.dev/icons?i=git,githubactions,vscode&theme=light)
+
+![](https://skillicons.dev/icons?i=windows,arch,ubuntu&theme=light)
 
 <div>
   <a href="https://github.com/dev-chenxing">
