@@ -1,2 +1,22 @@
-name-1: 陈刑
-name-2: 𝖈𝖍𝖊𝖓.𝖝𝖎𝖓𝖌
+username: dev-chenxing # Required, GitHub username
+name-1: 陈刑 # Required
+name-2: 𝖈𝖍𝖊𝖓.𝖝𝖎𝖓𝖌 # Optional
+
+list: # Optional
+  - 
+    emoji: ":desktop_computer:" # Optional
+    text: Learning anything creative coding related from web design to game development 创意编程 # Optional
+  - 
+    emoji: ":books:"
+    text: Ex Applied Mathematics Student in China 前应用数学专业学生
+  - 
+    emoji: ":video_game:"
+    text: "Ex Modder for The Elder Scrolls III: Morrowind 上古卷轴3晨风游戏模组开发"
+  - 
+    emoji: ":woman_technologist:"
+    text: "Pronouns: She / Her 是个女的"
+
+skill-icons:
+  - py,html,css,sass,js,nodejs,bash,ruby,ts,lua
+  - git,githubactions,vscode
+  - windows,arch,ubuntu
