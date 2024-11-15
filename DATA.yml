@@ -2,6 +2,8 @@ username: dev-chenxing # Required, GitHub username
 name-1: 陈刑 # Required
 name-2: 𝖈𝖍𝖊𝖓.𝖝𝖎𝖓𝖌 # Optional
 
+description: # Optional
+
 list: # Optional
   - 
     emoji: ":desktop_computer:" # Optional
@@ -16,7 +18,9 @@ list: # Optional
     emoji: ":woman_technologist:"
     text: "Pronouns: She / Her 是个女的"
 
+content: # Optional
+
 skill-icons:
-  - py,html,css,sass,js,nodejs,bash,ruby,ts,lua
-  - git,githubactions,vscode
+  - js,py,html,css,sass,react,nodejs,bash,ruby,ts,lua
+  - vscode,git,githubactions
   - windows,arch,ubuntu
