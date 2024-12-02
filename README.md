@@ -1,6 +1,7 @@
 <h1 align="center">Hi, I'm 陈刑 👋</h1>
 <h2 align="center">aka 𝖈𝖍𝖊𝖓.𝖝𝖎𝖓𝖌</h2>
 
+
 <div>
   <div align="center">
     <a href="https://hits.seeyoufarm.com">
@@ -14,11 +15,13 @@
   <ul>· :woman_technologist: Pronouns: She / Her 是个女的</ul>
 </div>
 
+
+
 #### :wrench: Languages and Tools
 
-![](https://skillicons.dev/icons?i=py,html,css,sass,js,nodejs,bash,ruby,ts,lua&theme=light)
+![](https://skillicons.dev/icons?i=js,py,html,css,sass,react,nodejs,bash,ruby,ts,lua&theme=light)
 
-![](https://skillicons.dev/icons?i=git,githubactions,vscode&theme=light)
+![](https://skillicons.dev/icons?i=vscode,git,githubactions&theme=light)
 
 ![](https://skillicons.dev/icons?i=windows,arch,ubuntu&theme=light)
 
@@ -28,6 +31,6 @@
   </a>
   
   <a href="https://github.com/dev-chenxing?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chenxing&theme=shadow_red&layout=compact&langs_count=10" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chenxing&theme=shadow_red&layout=compact&langs_count=20" />
   </a>
 </div>
