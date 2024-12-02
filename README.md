@@ -31,6 +31,6 @@
   </a>
   
   <a href="https://github.com/dev-chenxing?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chenxing&theme=shadow_red&layout=compact&langs_count=20" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chenxing&theme=shadow_red&layout=compact&langs_count=12" />
   </a>
 </div>
