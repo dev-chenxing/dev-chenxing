@@ -21,6 +21,6 @@ list: # Optional
 content: # Optional
 
 skill-icons:
-  - js,py,html,css,sass,react,nodejs,bash,ruby,ts,lua
-  - vscode,git,githubactions
-  - windows,arch,ubuntu
+  - python,html,css,js,typescript,git
+  - nodejs,npm,vite,react,tailwind,astro,sass,svelte,pug,gulp
+  - php,ruby,rails,lua
