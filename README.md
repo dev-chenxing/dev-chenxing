@@ -19,11 +19,11 @@
 
 #### :wrench: Languages and Tools
 
-![](https://skillicons.dev/icons?i=js,py,html,css,sass,react,nodejs,bash,ruby,ts,lua&theme=light)
+![](https://skillicons.dev/icons?i=python,html,css,js,typescript,git&theme=light)
 
-![](https://skillicons.dev/icons?i=vscode,git,githubactions&theme=light)
+![](https://skillicons.dev/icons?i=nodejs,npm,vite,react,tailwind,astro,sass,svelte,pug,gulp&theme=light)
 
-![](https://skillicons.dev/icons?i=windows,arch,ubuntu&theme=light)
+![](https://skillicons.dev/icons?i=php,ruby,rails,lua&theme=light)
 
 <div>
   <a href="https://github.com/dev-chenxing">
