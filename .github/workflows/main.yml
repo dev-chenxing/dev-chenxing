@@ -20,7 +20,7 @@ jobs:
               run: npm install
             - name: Generate README file
               run: |
-                  coffee -c index.coffee
+                  node_modules/.bin/coffee -c index.coffee
                   node index.js
                   rm index.js
             - name: Commit and push if it changed
