@@ -12,9 +12,6 @@ list: # Optional
     emoji: ":books:"
     text: Ex Applied Mathematics Student in China 前应用数学专业学生
   - 
-    emoji: ":video_game:"
-    text: "Ex Modder for The Elder Scrolls III: Morrowind 上古卷轴3晨风游戏模组开发"
-  - 
     emoji: ":woman_technologist:"
     text: "Pronouns: She / Her 是个女的"
 
@@ -24,3 +21,5 @@ skill-icons:
   - python,html,css,js,typescript,git
   - nodejs,npm,vite,react,tailwind,astro,sass,svelte,pug,gulp
   - php,ruby,rails,lua
+
+stats-hide: lua # Optional
