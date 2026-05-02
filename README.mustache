@@ -5,12 +5,6 @@
 {{ description }}
 
 <div>
-  <div align="center">
-    <a href="https://hits.seeyoufarm.com">
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{{ username }}%2Fhit-counter&count_bg=%23C4B798&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=Profile+views&edge_flat=false"/>
-    </a>
-  </div>
-
   {{#list}}
   <ul>· {{ emoji }} {{ &text }}</ul>
   {{/list}}
@@ -26,10 +20,10 @@
 {{/skill-icons}}
 <div>
   <a href="https://github.com/{{ username }}">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api?username={{ username }}&show_icons=true&line_height=24&theme=shadow_red" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api?username={{ username }}&show_icons=true&theme=graywhite&hide_border=true" />
   </a>
   
   <a href="https://github.com/{{ username }}?tab=repositories">
-    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ username }}&theme=shadow_red&layout=compact&langs_count=12" />
+    <img align="center" height=175 src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ username }}&layout=compact&theme=graywhite&hide_border=true&langs_count=8" />
   </a>
 </div>
