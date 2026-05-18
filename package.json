@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "coffeescript": "^2.7.0",
-    "mustache": "^4.2.0",
-    "yaml": "^2.6.0"
-  }
-}
